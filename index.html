@@ -5,13 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+     <title>Tailwind Test</title>
+  <script src="https://cdn.tailwindcss.com"></script>
     
 </head>
-<body>
-    <div class="continer">
-        <h1 class="titel"> ايآت قرآن + دعاء</h1>
-        <div class="content" id="conten1"></div>
-        <button class="btu" id="butt">الدعاء التالي</button>
+<body class="bg-black">
+
+    <div class=" bg-black p-[20px] md:grid md:grid-cols-2 xl:grid xl:grid-cols-3 xl:my-[auto] ">
+
+
+        
+        <div class="bg-gray-900 w-[90%] h-fit m-[auto] flex flex-col p-[30px] border-2 rounded-lg  md:mt-[30px]  xl:mt-[15px] 2xl:mt-[150px]">
+
+        <h2 class="text-center pb-[10px] text-white text-lg">الاذكار الصباح</h2>
+        <div class="w-[90%] h-fit p-[20px]  md:h-[230px] md:p-[10px] text-center text-[gold] bg-gray-700 reduse-[20px] m-[auto] lg:p-[30px] 2xl:p-[30px] lg:p-[20px]" id="conten2" ></div>
+        <button class="bg-[bg-black] bg-gray-500 w-[150px] h-[50px] mx-auto mt-[20px]  text-white p-20px text-lg  rounded-lg" id="button2">الدعاء التالي</button>
+        
+    </div>
+
+    <div class="bg-gray-900 w-[90%] h-fit m-[auto] flex flex-col p-[30px] border-2 rounded-lg 2xl:mt-[150px] mt-[30px]">
+        <h1 class="text-center pb-[10px] text-white text-lg"> ايآت قرآن + دعاء</h1>
+        <div class="w-[90%] h-[135px] p-[30px]  md:h-[230px] md:p-[60px] text-center text-[gold] bg-gray-700 reduse-[20px] m-[auto]" id="conten1"></div>
+        <button class="bg-[bg-black] bg-gray-500 w-[150px] h-[50px] mx-auto mt-[20px]  text-white p-20px text-lg  rounded-lg  " id="butt">الدعاء التالي</button>
+        </div>
+
+
+
+
+    <div class="bg-gray-900 w-[90%] h-fit m-[auto] flex flex-col p-[30px] border-2 rounded-lg mt-[30px] md:w-80px xl:mt-[15px] 2xl:mt-[150px] ">
+
+        <h2 class="text-center pb-[10px] text-white text-lg">الاذكار المساء</h2>
+        <div class="w-[90%] h-fit p-[10px]  text-center text-[gold] bg-gray-700 reduse-[20px] m-[auto] md:h-[230px] 2xl:p-[30px] lg:p-[30px] lg:p-[20px]" id="conten3" ></div>
+        <button class="bg-[bg-black] bg-gray-500 w-[150px] h-[50px] mx-auto mt-[20px]  text-white p-20px text-lg  rounded-lg" id="button3">الدعاء التالي</button>
+        
+    </div>
+
+    </div>
         <script src="js/code.js"></script>
 
     </div>
